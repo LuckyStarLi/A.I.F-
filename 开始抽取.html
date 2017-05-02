@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>A.I.F 幸运王</title>
+
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+
+	</head>
+
+	<body>
+
+		<style type="text/css">
+			body {
+				background-color: lightgrey;
+				text-align: center;
+				padding-top: 10px;
+			}
+			
+			#Result {
+				border: 3px solid lightcoral;
+				margin: 0 auto;
+				text-align: center;
+				width: 500px;
+				padding: 50px 0;
+				background: #efe;
+			}
+			
+			#ResultNum {
+				font-size: 100pt;
+				font-family: Verdana
+			}
+			
+			#Button {
+				margin: 50px 0 0 0;
+			}
+			
+			#Button input {
+				font-size: 50px;
+				padding: 0 50px;
+			}
+			
+			#btn {
+				background-color: #40AA53;
+				border: 1px solid #40AA53;
+				width: 20%;
+				height: 70px;
+				margin: 0em auto;
+				font-size: 1em;
+				border-radius: 2.5px;
+				-moz-border-radius: 2.5px;
+				-webkit-border-radius: 2.5px;
+				color: #FFF;
+			}
+		</style>
+		<h1 style="color:crimson;font-size:40px;">幸运王</h1>
+		<h3 style="color:#40AA53;">获得幸运王的同学和家长，代表参加活动。</h3>
+		<div id="Result" style="color:#40AA53">
+			<span id="ResultNum">0</span>
+		</div>
+
+		<div id="Button">
+			<input type='button' id="btn" value='开始' onclick='beginRndNum(this)' />
+		</div>
+	</body>
+
+</html>
